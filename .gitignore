@@ -15,6 +15,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /vendor/
 /AdminLTE-master/*
 *.zip
+/user_guide/
 
 # IDE Files
 #-------------------------
