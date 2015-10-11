@@ -1,0 +1,1 @@
+<a href="{{ url('/') }}" class="logo">{!! env('APP_NAME_HTML') !!}</a>
