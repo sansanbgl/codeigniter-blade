@@ -8,8 +8,8 @@
                 <img src="{{ base_url('assets/adminlte/dist/img/avatar04.png') }}" class="img-circle" alt="User Image" />
             </div>
             <div class="pull-left info">
-                <p>Ahsan Pratama</p>
-                <a href="#"><i class="fa fa-circle text-success"></i> Petugas Kalibrasi</a>
+                <p>Unit</p>
+                <a href="#"><i class="fa fa-circle text-success"></i></a>
             </div>
         </div>
         <!-- /.search form -->

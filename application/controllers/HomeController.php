@@ -7,6 +7,6 @@ class HomeController extends Controller
     public function index()
     {
         $data['a'] = 'aku';
-        echo $this->blade->view()->make('hello', $data)->render();
+        return $this->blade->view()->make('pages/welcome', $data)->render();
     }
 }
