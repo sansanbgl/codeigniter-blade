@@ -1,0 +1,7 @@
+.no-float {
+    float: none;
+}
+
+table.table thead tr th {
+	text-align: center;
+}

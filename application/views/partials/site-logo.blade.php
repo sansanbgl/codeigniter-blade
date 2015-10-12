@@ -1,1 +1,1 @@
-<a href="{{ url('/') }}" class="logo">{!! env('APP_NAME_HTML') !!}</a>
+<a href="{{ base_url('/') }}" class="logo"></a>

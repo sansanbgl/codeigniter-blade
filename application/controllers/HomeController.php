@@ -6,7 +6,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-    	$data['a'] = 'aku';
+        $data['a'] = 'aku';
         echo $this->blade->view()->make('hello', $data)->render();
     }
 }

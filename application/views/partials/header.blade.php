@@ -12,13 +12,13 @@
                 <!-- User Account: style can be found in dropdown.less -->
                 <li class="dropdown user user-menu">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <img src="{{ asset('/adminlte/dist/img/avatar04.png') }}" class="user-image" alt="User Image"/>
+                    <img src="{{ base_url('assets/adminlte/dist/img/avatar04.png') }}" class="user-image" alt="User Image"/>
                     <span class="hidden-xs">Ahsan Pratama</span>
                     </a>
                     <ul class="dropdown-menu">
                         <!-- User image -->
                         <li class="user-header">
-                            <img src="{{ asset('/adminlte/dist/img/avatar04.png') }}" class="img-circle" alt="User Image" />
+                            <img src="{{ base_url('assets/adminlte/dist/img/avatar04.png') }}" class="img-circle" alt="User Image" />
                             <p>
                             Ahsan Pratama - Petugas Kalibrasi
                             <small>Member since Nov. 2012</small>
@@ -30,7 +30,7 @@
                                 <a href="#" class="btn btn-default btn-flat">Profil</a>
                             </div>
                             <div class="pull-right">
-                                <a href="{{ url('auth/logout') }}" class="btn btn-default btn-flat">Keluar</a>
+                                <a href="{{ base_url('auth/logout') }}" class="btn btn-default btn-flat">Keluar</a>
                             </div>
                         </li>
                     </ul>

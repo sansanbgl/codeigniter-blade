@@ -1,0 +1,14 @@
+.circle{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.circle.yellow{
+    background: #f0ad4e;
+}
+.circle.green{
+    background: #00ff00;
+}
+.circle.black{
+    background: #777777;
+}
