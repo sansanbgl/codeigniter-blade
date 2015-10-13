@@ -13,5 +13,7 @@ class Controller extends CI_Controller
         $this->views = 'application\views';
         $this->cache = 'application\cache';
         $this->blade = new Blade($this->views, $this->cache);
+        $this->load->library('session');
+        $this->load->database();
     }
 }

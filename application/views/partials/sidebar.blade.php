@@ -15,43 +15,104 @@
         <!-- /.search form -->
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-            <li class="header">MENU UTAMA</li>
+            <li class="header">MENU</li>
             <li class="treeview">
                 <a href="{{base_url('')}}">
                 <i class="fa fa-home"></i>
                 <span>Beranda</span></a>
 
                 <a href="#">
-                    <i class="fa fa-folder"></i> <span>Kalibrasi</span>
+                    <i class="fa fa-folder"></i> <span>Referensi</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
                     <li>
-                      <a href="{{ base_url('calibration/task') }}"><i class="fa fa-circle-o"></i> Penugasan Kalibrasi</a>
+                      <a href="{{ base_url('calibration/task') }}"><i class="fa fa-circle-o"></i>UAPB</a>
                     </li>
                     <li>
-                      <a href="{{ base_url('calibration/process') }}"><i class="fa fa-circle-o"></i> Proses Kalibrasi</a>
+                      <a href="{{ base_url('calibration/process') }}"><i class="fa fa-circle-o"></i>Wilayah</a>
                     </li>
                     <li>
-                      <a href="{{ base_url('calibration/type') }}"><i class="fa fa-circle-o"></i> Jenis Kalibrasi</a>
+                      <a href="{{ base_url('calibration/type') }}"><i class="fa fa-circle-o"></i>Kanwil</a>
+                    </li>
+                    <li>
+                      <a href="{{ base_url('calibration/type') }}"><i class="fa fa-circle-o"></i>Sub-sub kelompok barang</a>
+                    </li>
+                    <li>
+                      <a href="{{ base_url('calibration/type') }}"><i class="fa fa-circle-o"></i>Tabel barang</a>
+                    </li>
+                    <li>
+                      <a href="{{ base_url('calibration/type') }}"><i class="fa fa-circle-o"></i>Penanda Tangan</a>
                     </li>
                 </ul>
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-folder"></i> <span>Alat Datang</span>
+                    <i class="fa fa-folder"></i> <span>Transaksi</span>
                     <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                    <li>
-                      <a href="{{ base_url('transaction/demand') }}"><i class="fa fa-circle-o"></i> Permintaan &amp; Kaji Ulang</a>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-folder"></i><span>Masuk</span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Saldo Awal</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Pembelian</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Transfer Masuk</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Hibah Masuk</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Rampasan</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Perolehan Lainnya</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#">
+                            <i class="fa fa-folder"></i><span>Keluar</span>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Habis Pakai</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Transfer Keluar</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Hibah Keluar</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Usang</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Rusak</a>
+                            </li>
+                            <li>
+                                <a href=""><i class="fa fa-circle-o"></i>Penghapusan Lainnya</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
-
-                      <a href="{{ base_url('transaction/receivement') }}"><i class="fa fa-circle-o"></i> Penerimaan Alat Datang</a>
+                      <a href="{{ base_url('transaction/demand') }}"><i class="fa fa-circle-o"></i>Koreksi</a>
                     </li>
                     <li>
-                      <a href="{{ base_url('transaction/order-status') }}"><i class="fa fa-circle-o"></i> Status Order</a>
+                      <a href="{{ base_url('transaction/receivement') }}"><i class="fa fa-circle-o"></i>Opname Fisik</a>
+                    </li>
+                    <li>
+                      <a href="{{ base_url('transaction/order-status') }}"><i class="fa fa-circle-o"></i>Penghapusan Usang Rusak</a>
+                    </li>
+                    <li>
+                      <a href="{{ base_url('transaction/order-status') }}"><i class="fa fa-circle-o"></i>Konversi Hasil Migrasi</a>
                     </li>
                 </ul>
             </li>
